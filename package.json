@@ -1,0 +1,26 @@
+{
+  "name": "ejs-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "react-scripts start",
+    "start": "npm run",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "16.13.2"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.3.6",
+    "nodemon": "^2.0.19"
+  }
+}
